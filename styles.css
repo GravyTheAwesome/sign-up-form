@@ -140,6 +140,16 @@ input {
   padding: 8px;
 }
 
+input:invalid {
+  border: 1px solid red;
+}
+
+input:focus {
+  border: 1px solid blue;
+  outline: none !important;
+  box-shadow: 2px 2px grey;
+}
+
 a {
   color: #fffff7;
 }
